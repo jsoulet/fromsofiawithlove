@@ -1,0 +1,260 @@
+/*
+Theme Name: Bulgaria
+Description: Flat UI theme for a semester abroad
+Version: 0.1
+Author: Johan Soulet
+ 
+Bulgaria by Johan Soulet // johan.soulet@gmail.com
+ 
+*/
+
+body{
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	background-color: rgb(233,233,233);
+	padding-top: 30px;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.hidden{
+	display: none;
+}
+
+.nothing{
+	font-weight: 300;
+	margin: 50px 0;
+	font-size: 30px;
+}
+
+.archive-title{
+	color: #2980b9;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 20px 0;
+}
+
+.navbar-nav .hidden-xs{
+	display: inline!important;
+}
+
+.banner h1.blog-title{
+	color : rgb(80,80,80);
+	font-weight: 300;
+}
+
+.banner h2.blog-subtitle{
+	font-weight: 300;
+	font-size: 20px;
+	color : rgb(150	,150,150);
+}
+
+/* Article preview */
+#article-list{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.article-list-item{
+	list-style-type: none;
+	position: relative;
+	width: 310px;
+	transition: all .5s ease-out;
+}
+
+.bwWrapper {
+    position:relative;
+    display:block;
+}
+
+/*.bwWrapper:hover .item-category{
+	background-color: #919191;
+}*/
+
+.item-title{
+	color: #2980b9;
+	font-weight: 300;
+	font-size: 24px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+a:hover .item-title {
+	color: #3498db;
+	text-decoration: none;
+
+}
+.item-category, .item-category a, .item-category a:hover, .article-category a, .article-category a:hover{
+		color: #FFF;
+
+}
+.item-category{
+	background-color: #2980b9;
+	font-size: 15px;
+	line-height: 22px;
+	padding: 7px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: 100;
+	border: solid 0 #FFF;
+	border-width: 5px 5px 0 5px;
+	border-width: 0;
+
+	transition: all .5s ease-out;
+}
+
+.item-info{
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.85);
+	color: rgb(51, 51, 51);
+	padding: 15px;
+	width: 100%;
+	position: relative;
+	transition: all .5s ease-out;
+}
+
+.item-caption{
+	width: 280px;
+	margin: 10px 0;
+	color: rgb(121,121,121);
+}
+
+.item-tag-list{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	height: 15px;
+	font-style: italic;
+	position: relative;
+}
+.item-tag-list li{
+	float: left;
+	list-style-type: none;
+	/*margin-right: 5px;*/
+	padding: 3px;
+	border-radius: 2px;
+	color: #3498db;
+}
+
+.item-tag-list a{
+	/*color: rgb(200, 200, 200);*/
+	color: #3498db;
+}
+
+.item-tag-list a:hover{
+	background-color: #ecf0f1;
+	color: #3498db;
+}
+
+.item-tag-list li:hover a{
+	color: #3498db;
+}
+
+.item-tag-list a:hover{
+	color: #3498db;
+}
+
+.item-tag-list li:before{
+	content: " #";
+}
+
+.item-tag-list li:first-child{
+	color: rgb(51, 51, 51);
+	margin: 0;
+}
+
+.item-tag-list li:first-child:before{
+	content: "";
+}
+
+
+
+/*Article details*/
+
+
+
+
+
+
+
+.article-desc{
+	position: relative;	
+}
+
+.article-header{
+	background-color: #FFF;
+	border: 1px solid #9f9f9f;
+	border-width: 1px 1px 0 1px;
+}
+
+.article-thumbnail{
+	max-width: 100%;
+	height: auto;
+}
+
+
+.article-title{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #2980b9;
+	padding: 20px;
+	margin: 0;
+}
+
+.article-category{
+	padding: 15px;
+	color: #FFF;
+	background-color: #2980b9;
+	font-weight: 100;
+	font-size: 20px;
+	position: absolute;
+	right: 15px;
+	top: 0;
+
+}
+
+.article-date{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+	margin-left: 20px;
+	color: rgb(121,121,121);
+
+
+}
+
+.article-content{
+	background-color: #FFF;
+	border: 1px solid #9f9f9f;
+	border-width: 0 1px;
+	padding: 20px;
+	text-align: justify;
+
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+.article-footer{
+	background-color: #FFF;
+	border: 1px solid #9f9f9f;
+	border-width: 0 1px 1px 1px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.article-footer .item-tag-list{
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] {width: 100% !important;}
+
+.aligncenter{
+	display : block;
+	margin: 0 auto
+}
